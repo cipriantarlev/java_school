@@ -15,5 +15,6 @@ public class firstExercise {
 			n = n/10;
 		}
 		System.out.println(sum);
+		
 	}
 }
