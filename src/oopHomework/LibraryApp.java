@@ -6,10 +6,10 @@ public class LibraryApp {
 		
 		LibraryCatalog catalog = new LibraryCatalog();
 		
-		Book newBook = new Book("Bucuresti", 280);
+		Novel newBook = new Novel("Bucuresti", 280, "Detectiv");
 		
 		catalog.addBook(newBook);
-		catalog.addBook(new Book ("Constanta", 385));
+		catalog.addBook(new ArtAlbum ("Constanta", 385, "Buna"));
 		
 		catalog.printAllBooks();
 		

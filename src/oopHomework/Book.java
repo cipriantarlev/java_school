@@ -1,9 +1,9 @@
 package oopHomework;
 
-public class Book {
+public abstract class Book {
 
-	private String bookName;
-	private int pageNumber;
+	protected String bookName;
+	protected int pageNumber;
 	
 	public Book (String bookName, int newPageNumber) {
 		this.bookName = bookName;
@@ -26,7 +26,5 @@ public class Book {
 		this.pageNumber = pageNumber;
 	}
 	
-	public String showBook() {
-		return "Cartea " + bookName + " are " + pageNumber + " de pagini";
-	}
+	public abstract String showBook();
 }
